@@ -149,4 +149,4 @@ add_custom_command(TARGET srpm
 
 # INSTALL
 install(FILES ${PROJECT_SOURCE_DIR}/libkvsal.pc DESTINATION lib)
-install(DIRECTORY ${PROJECT_SOURCE_DIR}/include/kvsal DESTINATION include)
+install(FILES ${PROJECT_SOURCE_DIR}/include/iosea/kvsal.h DESTINATION include/iosea)
